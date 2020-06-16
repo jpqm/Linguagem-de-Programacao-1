@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
         return -1;
     }
 
-    if(argc == 2){
+    if(argc == 2 && argv[1] == add){
 
         cout << "Digite sua mensagem" << endl;
 

@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
 
     string mens;
 
-    if(argc == 1 || add.compare(argv[1])) {
+    if(argc == 1) {
 
         cout << "Uso: " << argv[0] << " add <mensagem>" << endl;
 

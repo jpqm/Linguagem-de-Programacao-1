@@ -6,6 +6,7 @@ using namespace std;
 int main(int argc, char *argv[]){
 
     string mens;
+    string add = "add";
 
     if(argc == 1 || add.compare(argv[1])) {
 
@@ -14,7 +15,7 @@ int main(int argc, char *argv[]){
         return -1;
     }
 
-    if(argc == 2 && argv[1] == "add"){
+    if(argc == 2 && argv[1] == add){
 
         cout << "Digite sua mensagem" << endl;
 
@@ -25,7 +26,7 @@ int main(int argc, char *argv[]){
         return 0;
     }
 
-    if(argc == 3 && argv[1] == "add"){
+    if(argc == 3 && argv[1] == add){
 
         cout << "Sua mensagem: " << argv[2] << endl;
 
